@@ -1,0 +1,10 @@
+core_cm3.h:1511:22:__NVIC_EnableIRQ	16	static
+core_cm3.h:1639:22:__NVIC_SetPriority	16	static
+segger_uart.c:175:13:_StartSysView	16	static
+segger_uart.c:193:13:_cbOnUARTRx	16	static
+segger_uart.c:215:12:_cbOnUARTTx	24	static
+segger_uart.c:249:6:SEGGER_UART_init	16	static
+segger_uart.c:269:6:HIF_UART_WaitForTxEnd	4	static
+segger_uart.c:311:6:USART2_IRQHandler	24	static
+segger_uart.c:385:6:HIF_UART_EnableTXEInterrupt	4	static
+segger_uart.c:405:6:HIF_UART_Init	32	static

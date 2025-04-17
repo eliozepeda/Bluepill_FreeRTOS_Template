@@ -1,0 +1,19 @@
+23:40:59 **** Incremental Build of configuration Debug for project FreeRTOS_template_using_IDE ****
+make -j16 all 
+arm-none-eabi-gcc -o "FreeRTOS_template_using_IDE.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Firmware Focus\RTOs\Workspace\FreeRTOS_template_using_IDE\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="FreeRTOS_template_using_IDE.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: FreeRTOS_template_using_IDE.elf
+ 
+arm-none-eabi-objdump -h -S  FreeRTOS_template_using_IDE.elf  > "FreeRTOS_template_using_IDE.list"
+arm-none-eabi-objcopy  -O binary  FreeRTOS_template_using_IDE.elf  "FreeRTOS_template_using_IDE.bin"
+arm-none-eabi-size   FreeRTOS_template_using_IDE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11152	     24	   7184	  18360	   47b8	FreeRTOS_template_using_IDE.elf
+Finished building: default.size.stdout
+ 
+Finished building: FreeRTOS_template_using_IDE.bin
+ 
+Finished building: FreeRTOS_template_using_IDE.list
+ 
+
+23:41:00 Build Finished. 0 errors, 0 warnings. (took 537ms)
+
