@@ -2,8 +2,8 @@
 <cdtprojectproperties>
   <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
     <language id="org.eclipse.cdt.core.assembly" name="s,S">
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\SEGGER\Config</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\SEGGER\SEGGER</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\SEGGER\Config</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\SEGGER\SEGGER</includepath>
     </language>
     <language id="org.eclipse.cdt.core.gcc" name="C Source File">
       <includepath>Core/Inc</includepath>
@@ -11,12 +11,12 @@
       <includepath>Drivers/STM32L4xx_HAL_Driver/Inc/Legacy</includepath>
       <includepath>Drivers/CMSIS/Device/ST/STM32L4xx/Include</includepath>
       <includepath>Drivers/CMSIS/Include</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\FreeRTOS\include</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\FreeRTOS</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\FreeRTOS\portable\GCC\ARM_CM4F</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\SEGGER\Config</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\SEGGER\OS</includepath>
-      <includepath>D:\Cursos\FreeRTOS\FreeRTOS_workspace\RTOS_workspace\common\ThirdParty\SEGGER\SEGGER</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\FreeRTOS\include</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\FreeRTOS</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\FreeRTOS\portable\GCC\ARM_CM3</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\SEGGER\Config</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\SEGGER\OS</includepath>
+      <includepath>C:\Users\Elio\Documents\Firmware Focus\RTOs\FreeRTOS_Course_FirmwareFocusAcademy\Bluepill_FreeRTOS_Template\common\ThirdParty\SEGGER\SEGGER</includepath>
     </language>
     <language name="Object File"/>
   </section>
